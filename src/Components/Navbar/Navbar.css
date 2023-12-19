@@ -16,9 +16,14 @@
     gap: 10rem;
 }
 .navbar-left{
-    padding: 2rem;
-    padding-top: 0.5rem;
+    
+    padding: 0.5rem;
     cursor: pointer;
+}
+.logo{
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
 }
 .navbar-right{
     display: flex;
@@ -46,6 +51,11 @@
     padding: 0.4rem;
     padding-right: 2rem;
     cursor: pointer;
+}
+.burger-img{
+    font-size: auto;
+    font-weight: 600;
+
 }
 @media (max-width: 468px) {
     .navbar-items{
