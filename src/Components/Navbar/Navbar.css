@@ -1,0 +1,55 @@
+.navbar-container{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    
+    overflow: hidden;
+    
+    color: white;
+    
+}
+
+.navbar-items{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    gap: 10rem;
+}
+.navbar-left{
+    padding: 2rem;
+    padding-top: 0.5rem;
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+    padding-top: 0.5rem;
+    
+    gap: 1rem;
+}
+.buttons{
+    height: fit-content;
+    padding: 0.4rem;
+    font-weight: 400;
+
+}
+.buttons:hover{
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.582);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease-in-out;
+    color: black;
+    cursor: pointer;
+}
+.burger{
+    padding: 0.4rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+@media (max-width: 468px) {
+    .navbar-items{
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+}
