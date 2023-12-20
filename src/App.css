@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+   flex-direction: column;
+   justify-content: space-between;
   text-align: center;
   background-image: url('../public/back.jpg');
   background-position: center;

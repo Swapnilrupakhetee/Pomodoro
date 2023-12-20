@@ -1,0 +1,32 @@
+.f-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.footer-items {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: flex-end; /* Add this to vertically align items at the bottom */
+}
+
+.left-icons {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.footer-icons {
+    font-size: 2rem;
+    fill: white;
+    padding-bottom: 3rem;
+}
+
+.right-spotify {
+    display: flex;
+    align-items: flex-end; /* This aligns the Spotify iframe to the bottom */
+    padding-top: 10rem;
+}
