@@ -16,7 +16,15 @@
     margin: 0 auto;
     border-radius: 10px;
     padding: 5rem;
+    border: 2px solid rgb(255, 255, 255);
     background-color: rgba(5, 5, 5, 0.548);
+    transition:all 0.2s ease-in-out ;
+}
+.operations:hover{
+    cursor: pointer;
+    box-shadow:-17px 16px 5px rgb(24 24 24 / 70%);
+    transform: scale(1.01);
+    transition:all 0.3s ease-in-out ;
 }
 .timevalue span{
     color: white;
@@ -34,14 +42,57 @@
 .play{
     font-size: 3.5rem;
     fill: white;
+    transition: 0.2s ease-in-out;
+}
+.play:hover{
+    fill: rgb(255, 255, 255);
+    transform: scale(1.12);
+    transition: all 0.3s ease-in-out;
 }
 .stats{
     font-size: 4rem;
     fill: white;
+    transition: 0.2s ease-in-out;
+}
+.stats:hover{
+    transform: scale(1.12);
+    transition: all 0.3s ease-in-out;
 }
 
 .settings{
     font-size: 4rem;
     fill: white;
+    transition: 0.2s ease-in-out;
 }
+.settings:hover{
+    transform: scale(1.12);
+    transition: all 0.3s ease-in-out;
+
+}
+@media screen and (min-width:400px) and (max-width:500px)
+ {
+   .timevalue span{
+    font-size: 3rem;
+   } 
+   .operations{
+    padding: 2.8rem;
+   }
+ }
+ @media screen and (min-width:250px) and (max-width:400px){
+    .timevalue span{
+        font-size: 2rem;
+       } 
+       .operations{
+        padding: 2rem;
+       }
+       .play{
+        font-size: 2rem;
+       }
+       .stats{
+        font-size: 2rem;
+       }
+       .settings{
+        font-size: 2rem;
+       }
+ }
 

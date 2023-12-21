@@ -9,9 +9,9 @@ const Footer = () => {
     <div className='f-container'>
       <div className="footer-items">
         <div className="left-icons">
-          <FaGithub className='footer-icons'/>
-          <FaLinkedinIn className='footer-icons'/>
-          <IoLogoYoutube className='footer-icons'/>
+          <a href='https://github.com/Swapnilrupakhetee'><FaGithub className='footer-icons'/></a>
+          <a href='https://www.linkedin.com/in/swapnil-rupakhetee-a67a7a25a/'><FaLinkedinIn className='footer-icons'/></a>
+          <a href='https://www.youtube.com/'><IoLogoYoutube className='footer-icons'/></a>
         </div>
         <div className="right-spotify">
           <iframe src="https://open.spotify.com/embed/track/1q8gelFgFYUwoWpQV7WNCe" width="400" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media">swd</iframe>

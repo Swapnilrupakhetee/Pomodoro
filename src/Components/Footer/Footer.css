@@ -14,6 +14,7 @@
 }
 
 .left-icons {
+    cursor: pointer;
     display: flex;
     align-items: flex-end;
     gap: 1rem;
@@ -31,7 +32,47 @@
     padding-top: 10rem;
 }
 iframe{
+    border-radius: 10px;
+    background-color: transparent;
     display: flex;
-    width: 500px;
+    width: 350px;
     height: 156px;
+    transition: all 1s ease-in-out;
 }
+iframe:hover{
+    transform: scale(1.05);
+    box-shadow:-7px 6px 5px rgb(255 255 255 / 12%);
+    transition: all 1s ease-in-out;
+}
+@media screen and (min-width:500px) and (max-width:900px){
+    .footer-items{
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        align-items: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 2rem;
+    }
+ }
+ @media screen and (min-width:200px) and (max-width:500px)
+ {
+    .footer-items{
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        align-items: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 2rem;
+    }
+    iframe{
+        width: 250px;
+        height: 86px;
+
+    }
+ }
