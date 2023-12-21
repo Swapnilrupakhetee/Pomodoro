@@ -14,7 +14,7 @@ const Footer = () => {
           <IoLogoYoutube className='footer-icons'/>
         </div>
         <div className="right-spotify">
-          <iframe src="https://open.spotify.com/embed/track/1q8gelFgFYUwoWpQV7WNCe" width="400" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media">swd</iframe>
+          <iframe src="https://open.spotify.com/embed/track/1q8gelFgFYUwoWpQV7WNCe" width="400" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media">swd</iframe>
 
         </div>
 
