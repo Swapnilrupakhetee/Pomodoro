@@ -22,7 +22,7 @@
 }
 .operations:hover{
     cursor: pointer;
-    box-shadow:-17px 16px 5px rgb(24 24 24 / 70%);
+    box-shadow:-17px 16px 5px rgb(24 24 25 / 70%);
     transform: scale(1.01);
     transition:all 0.3s ease-in-out ;
 }
