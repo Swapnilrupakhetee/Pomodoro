@@ -95,4 +95,17 @@
         font-size: 2rem;
        }
  }
+.session-controls{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 
+}
+.session-controls button{
+    border: none;
+    padding: 0.6rem;
+    border-radius: 7px;
+    width: 5rem;
+    max-width:5rem;
+
+}

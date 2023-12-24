@@ -107,9 +107,9 @@ const Operations = () => {
         </div>
 
         <div className="session-controls">
-          <button onClick={() => setSessionType('work')}>Start Work</button>
-          <button onClick={() => setSessionType('break')}>Start Break</button>
-          <button onClick={() => setSessionType('longBreak')}>Start Long Break</button>
+          <button onClick={() => setSessionType('work')}>Work</button>
+          <button onClick={() => setSessionType('break')}>Break</button>
+          <button onClick={() => setSessionType('longBreak')}>Long Break</button>
         </div>
       </div>
 
